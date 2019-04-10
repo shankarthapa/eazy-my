@@ -1,0 +1,36 @@
+.item-box {
+    border: 1px solid #D8D8D8 !important;
+    height: 156.15px;
+    margin-bottom: 4rem;
+    margin-right: 4rem;
+    max-width: 140.2px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+}
+.item-box:hover {
+    text-overflow: clip;
+    white-space: normal;
+    word-break: break-all;
+}
+
+.title {
+    color: #4D4D4D;
+    font-family: 'Roboto';
+    font-size: 1rem !important;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.price {
+    color: #E01A1A;
+    font-family: 'Roboto';
+    font-size: 1.16rem !important;
+    margin-top: 2rem;
+}
+
+@media (max-width: 375px) {
+    .item-box {
+        margin-right: 1rem;
+    }
+}

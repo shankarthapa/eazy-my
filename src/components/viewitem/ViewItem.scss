@@ -1,0 +1,132 @@
+$font-color : #333333;
+$font-family : "Open Sans";
+$font-color-red : #E01A1A;
+$px20rem: 1.6rem;
+
+.view-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.viewitem {
+    margin-top: 2rem;
+}
+
+.img-container {
+    border: 1px solid #B9B9B9;
+    width: 664px;
+    height: 498px
+}
+.short-nav {
+    margin-left: 3rem;
+    text-align: left;
+    span {
+        color: $font-color;
+        font-family: $font-family;
+        font-size: .916rem;
+        font-weight: 100;
+    }
+}
+.view-title {
+    text-align: left;
+    span {
+        color: $font-color;
+        font-family: $font-family;
+        font-size: $px20rem;
+        font-weight: 400;
+    }
+}
+
+.desc {
+    text-align: left;
+    span {
+        color: $font-color;
+        font-family: $font-family;
+        font-size: 1rem;
+    }
+}
+
+.desc-title {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    text-align: left;
+    span {
+        color: $font-color-red;
+        font-family: $font-family;
+        text-decoration: underline;
+        font-weight: 700;
+    }
+}
+
+.right-box {
+    border: 1px solid #F0F0EE;
+    font-family: $font-family;
+    height: 498.26px;
+    margin-top: 2.6rem;
+
+    .price-row {
+        display: grid;
+        margin-left: 3rem;
+        margin-top: 3rem;
+        text-align: left;
+
+        small {
+            color: #707070;
+            font-size: 12px;
+            margin-top: 1rem;
+        }
+
+        .price {
+            color: $font-color-red;
+            font-size: $px20rem;
+            margin-top: 0;
+        }
+
+        span {
+            color: $font-color;
+            font-size: 14px;
+        }
+
+        .private {
+            color: #707070;
+            font-size: 12px;
+        }
+
+        .hLine {
+            border-bottom: 1px solid #ccc;
+            margin-left: -4rem;
+            margin-right: -1rem;
+            margin-top: 1rem;
+        }
+
+        button {
+            margin-bottom: 1rem;
+            width: 50%;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .img-container {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (max-width: 375px) {
+    .viewitem {
+        margin-top: 3rem;
+    }
+    .short-nav {
+        margin-left: 0rem;
+    }
+
+    .view-container {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .img-container {
+        width: auto;
+        height: auto;
+    }
+}

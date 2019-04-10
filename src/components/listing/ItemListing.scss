@@ -1,0 +1,23 @@
+.item-container {
+    margin: 2rem 5rem 0 7rem;
+}
+
+.listing {
+    text-align: left;
+    margin-bottom: 1rem;
+    span {
+        color: #333333;
+        font-family: 'Roboto';
+        font-size: 18px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 375px) {
+    .item-container {
+        margin: 2rem 0rem 0 3rem;
+    }
+    .listing {
+        margin-top: 3rem;
+    }
+}
